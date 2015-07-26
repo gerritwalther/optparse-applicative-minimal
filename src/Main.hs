@@ -14,7 +14,7 @@ configuration = Configuration
         ( long "foo"
        <> metavar "ARG1"
         )
-    <*> option
+    <*> option auto
         ( long "bar"
        <> metavar "ARG2"
        )
